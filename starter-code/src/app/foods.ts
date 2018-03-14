@@ -1,4 +1,9 @@
-const foods: Object[] = [
+const foods: {
+  name: string,
+  calories: number,
+  image: string,
+  quantity: number,
+}[] = [
   {
     name: "Pizza",
     calories: 400,
