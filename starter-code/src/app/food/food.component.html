@@ -1,0 +1,12 @@
+<div class="food">
+  <div class="food-image">
+    <img src="{{food.image}}" />
+  </div>
+  <div class="food-info">
+    <div class="food-name">{{food.name}}</div>
+    <div class="food-quantity">
+      <label>Quantity</label>
+      <input class="quantity-input" type="number" [(ngModel)]="food.quantity">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+.food-list-container {
+  height: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
